@@ -1,5 +1,3 @@
-const express = require('express');
-
 
 function requireUser(req, res, next) {
     if (!req.user) {
